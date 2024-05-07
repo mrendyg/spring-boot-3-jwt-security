@@ -14,7 +14,7 @@ import java.security.Principal;
 @RequiredArgsConstructor
 public class UserController {
 
-    private final UserService service;
+    private  UserService service;
 
     @PatchMapping
     public ResponseEntity<?> changePassword(
